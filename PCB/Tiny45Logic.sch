@@ -1403,8 +1403,8 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instances>
 <instance part="U1" gate="G$1" x="20.32" y="109.22"/>
 <instance part="JP1" gate="A" x="83.82" y="114.3"/>
-<instance part="J1" gate="G$1" x="50.8" y="116.84" rot="R180"/>
-<instance part="J2" gate="G$1" x="50.8" y="109.22" rot="R180"/>
+<instance part="J1" gate="G$1" x="55.88" y="116.84" rot="R180"/>
+<instance part="J2" gate="G$1" x="55.88" y="109.22" rot="R180"/>
 <instance part="J3" gate="G$1" x="-10.16" y="116.84"/>
 <instance part="J4" gate="G$1" x="-10.16" y="104.14"/>
 <instance part="R1" gate="G$1" x="50.8" y="91.44"/>
@@ -1412,10 +1412,10 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <busses>
 </busses>
 <nets>
-<net name="MOSI" class="0">
+<net name="MOSI/A" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB0(MOSI)"/>
-<wire x1="33.02" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="116.84" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
 <label x="35.56" y="116.84" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 </segment>
@@ -1425,10 +1425,10 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="93.98" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MISO" class="0">
+<net name="MISO/B" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB1(MISO)"/>
-<wire x1="33.02" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="114.3" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
 <label x="35.56" y="114.3" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 </segment>
@@ -1453,7 +1453,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="FWD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB3(ADC3)"/>
-<wire x1="33.02" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="109.22" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
 <label x="35.56" y="109.22" size="1.778" layer="95"/>
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
@@ -1461,7 +1461,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="REV" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB4(ADC2)"/>
-<wire x1="33.02" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="106.68" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
 <label x="35.56" y="106.68" size="1.778" layer="95"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
