@@ -27,7 +27,7 @@ void setup() {
 
   GIMSK |= (1<<PCIE);//enable pin change interrupts
   PCMSK |= (1<<SIG_A_PIN) | (1<<SIG_B_PIN);//set pin change interrupts on pins 0 and 1
-
+  
   sei();//enable interrupts
   
 }
@@ -73,12 +73,4 @@ ISR(PCINT0_vect){//interrupt routine
 }
 
 void loop() {
-
-//  digitalWrite(REVPIN, HIGH);
-//  digitalWrite(FWDPIN, HIGH);
-//  delay(400);
-//  digitalWrite(REVPIN, LOW);
-//  digitalWrite(FWDPIN, LOW);
-//  delay(400);
-
 }
